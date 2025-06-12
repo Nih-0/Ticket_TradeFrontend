@@ -1,0 +1,115 @@
+// data/products.js
+
+const dummyProducts =  [
+  {
+    id: 1,
+    name: "Wireless Headphones",
+    description: "Noise-cancelling over-ear Bluetooth headphones with 40-hour battery life.",
+    brand: "SoundMax",
+    category: "Electronics",
+    available: true,
+    price: 2999.99,
+    quantity: 25,
+    releasedate: "12-04-2023",
+    imagename: "head.jpg",
+    imagetype: "image/jpeg",
+    imageUrl: "https://thumbs.dreamstime.com/b/vintage-retro-style-movie-ticket-344347009.jpg"
+  },
+  {
+    id: 2,
+    name: "Gaming Mouse",
+    description: "High-precision RGB gaming mouse with customizable buttons.",
+    brand: "TechNova",
+    category: "Accessories",
+    available: true,
+    price: 1499.50,
+    quantity: 50,
+    releasedate: "22-08-2022",
+    imagename: "mouse.jpg",
+    imagetype: "ima1024ge/jpeg",
+    imageUrl: "https://thumbs.dreamstime.com/b/vintage-retro-style-movie-ticket-344347009.jpg Pro",
+    description: "Waterproof smartwatch with fitness tracking and heart rate monitor.",
+    brand: "FitGear",
+    category: "Wearables",
+    available: false,
+    price: 4999.00,
+    quantity: 0,
+    releasedate: "05-01-2023",
+    imagename: "smartwatch.jpg",
+    imagetype: "image/jpeg",
+    imageUrl: "https://thumbs.dreamstime.com/b/vintage-retro-style-movie-ticket-344347009.jpg"
+  },
+  {
+    id: 4,
+    name: "Bluetooth Speaker",
+    description: "Portable speaker with deep bass and 12-hour playtime.",
+    brand: "BeatBlast",
+    category: "Electronics",
+    available: true,
+    price: 1999.75,
+    quantity: 15,
+    releasedate: "18-03-2024",
+    imagename: "speaker.jpg",
+    imagetype: "image/jpeg",
+    imageUrl: "https://thumbs.dreamstime.com/b/vintage-retro-style-movie-ticket-344347009.jpg"
+  },
+  {
+    id: 5,
+    name: "Mechanical Keyboard",
+    description: "RGB backlit mechanical keyboard with blue switches.",
+    brand: "KeyFlex",
+    category: "Accessories",
+    available: true,
+    price: 3499.00,
+    quantity: 40,
+    releasedate: "11-07-2023",
+    imagename: "keyboard.jpg",
+    imagetype: "image/jpeg",
+    imageUrl: "https://thumbs.dreamstime.com/b/vintage-retro-style-movie-ticket-344347009.jpg"
+  },
+  {
+    id: 6,
+    name: "Fitness Band",
+    description: "Basic fitness tracker with step and sleep monitoring.",
+    brand: "MoveFit",
+    category: "Wearables",
+    available: false,
+    price: 999.00,
+    quantity: 0,
+    releasedate: "01-09-2022",
+    imagename: "band.jpg",
+    imagetype: "image/jpeg",
+    imageUrl: "https://thumbs.dreamstime.com/b/vintage-retro-style-movie-ticket-344347009.jpg+Band"
+  },
+  {
+    id: 7,
+    name: "4K Action Camera",
+    description: "Waterproof sports action cam with wide-angle lens.",
+    brand: "ActionHero",
+    category: "Cameras",
+    available: true,
+    price: 6999.00,
+    quantity: 12,
+    releasedate: "15-12-2023",
+    imagename: "actioncam.jpg",
+    imagetype: "image/jpeg",
+    imageUrl: "https://thumbs.dreamstime.com/b/vintage-retro-style-movie-ticket-344347009.jpg+Cam"
+  },
+  {
+    id: 8,
+    name: "Noise Cancelling Earbuds",
+    description: "Wireless earbuds with ENC and fast charging case.",
+    brand: "SoundNova",
+    category: "Electronics",
+    available: true,
+    price: 2599.99,
+    quantity: 30,
+    releasedate: "25-02-2024",
+    imagename: "earbuds.jpg",
+    imagetype: "image/jpeg",
+    imageUrl: "https://thumbs.dreamstime.com/b/vintage-retro-style-movie-ticket-344347009.jpg"
+  }
+];
+
+
+export default dummyProducts;
